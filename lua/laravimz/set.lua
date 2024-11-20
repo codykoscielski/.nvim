@@ -25,6 +25,8 @@ vim.opt.scrolloff = 8
 vim.opt.signcolumn = "yes"
 vim.opt.statuscolumn = "%l %=%r│%s"
 
+vim.opt.mousemodel = "popup_setpos"
+
 vim.opt.updatetime = 50
 
 vim.opt.clipboard = "unnamedplus"
@@ -34,3 +36,6 @@ vim.opt.colorcolumn = "80"
 vim.g.netrw_sort_sequence = "[/]$,<core%(.d+)=,.[a-np-z]$,.h$,.c$,.cpp$,*,_templ.go$,.o$,.obj$,.info$,.swp$,.bak$,~$"
 
 vim.lsp.inlay_hint = true
+
+vim.opt.spell = true
+vim.opt.spelllang = 'en_us'

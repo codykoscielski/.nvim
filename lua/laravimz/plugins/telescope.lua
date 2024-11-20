@@ -30,6 +30,13 @@ return {
                         require("telescope.themes").get_dropdown{
                         }
                     }
+                },
+                pickers = {
+                    find_files = {
+                        hidden = true,
+                        no_ignore = true,
+                        no_ignore_parent = true
+                    }
                 }
             })
             require("telescope").load_extension("ui-select")
