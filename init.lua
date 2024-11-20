@@ -1,1 +1,1 @@
-require("laravimz")
+require("neovim")
